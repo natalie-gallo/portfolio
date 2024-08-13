@@ -2,18 +2,28 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import './Projects.css';
+import './Title.css';
+import amaiLogo from '../images/amai-logo.png';
+import k2gr8Logo from '../images/k2gr8-logo.png';
+import discordBanner from '../images/discord-banner.png';
 
 function Projects() {
   return (
     <div id="projects">
-      <h1>Projects</h1>
-      <hr></hr>
+      <div className='title'>
+        <h1>Projects</h1>
+        <hr></hr>
+      </div>
       <div className='projects-container'>
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src="amai-logo.png" />
+            <a href='https://github.com/natalie-gallo/amai-app'>
+            <Card.Img variant="top" src={amaiLogo} />
+            </a>
             <Card.Body>
+            <a href='https://github.com/natalie-gallo/amai-app'>
             <Card.Title>Amai App</Card.Title>
+            </a>
             <Card.Text>
             Amai is a health tracker app aimed to help people who struggle with health problems keep track of their wellbeing. It is specifically aimed at those who struggle with diabetic symptoms (Pre-Diabetes, Diabetes I, Diabetes II) and need help tracking their food intake and glucose levels, 
             hence the name "Amai", the romanization of the Japanese word あまい, meaning sweet. While the goal is to keep track of details such as blood sugar levels, there is also features like a heart rate tracker and notes section. This allows the app to also provide a general outlet for the users 
@@ -25,9 +35,13 @@ function Projects() {
             </Card.Footer>
           </Card>
           <Card>
-            <Card.Img variant="top" src="k2gr8-logo.png" />
+            <a href='https://github.com/Kianeefondo/DivHacks2023-KDNY'>
+            <Card.Img variant="top" src={k2gr8Logo} />
+            </a>
             <Card.Body>
+              <a href='https://github.com/Kianeefondo/DivHacks2023-KDNY'>
               <Card.Title>K2GR8</Card.Title>
+              </a>
               <Card.Text>
               Our goal is to broaden the possibilities of what it means to learn in a classroom and learn at home through the future of education: personalized learning.
               With the help of ChatGPT and OpenAi, we would utilize the auto generation of questions to help create questions, presented on a web platform, that are catered to make personalized learning paths for every student.
@@ -39,6 +53,22 @@ function Projects() {
             </Card.Body>
             <Card.Footer>
               <small className="text-muted">Last updated Sep 24, 2023</small>
+            </Card.Footer>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src={discordBanner} />
+            <Card.Body>
+              <a href='https://github.com/natalie-gallo/genz-bot'>
+              <Card.Title>GenZ Bot</Card.Title>
+              </a>
+              <Card.Text>
+                A Discord Bot that takes responds to specific keywords found in text messages 
+                sent within a server. More specifically, the responses are typically characterized 
+                to be how the netizens of Generation Z would respond to certain messages.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+              <small className="text-muted">Under Maintenance</small>
             </Card.Footer>
           </Card>
           <Card>
