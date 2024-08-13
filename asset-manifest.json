@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.99296814.css",
-    "main.js": "/portfolio/static/js/main.94ea36cd.js",
+    "main.css": "/portfolio/static/css/main.230cba6f.css",
+    "main.js": "/portfolio/static/js/main.7860b76e.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/discord-banner.png": "/portfolio/static/media/discord-banner.8d8bfd03ac741f7f8bf4.png",
+    "static/media/github-logo.png": "/portfolio/static/media/github-logo.dc27cb7dee5f2b7dc4ce.png",
+    "static/media/amai-logo.png": "/portfolio/static/media/amai-logo.350afb247360aa001650.png",
+    "static/media/k2gr8-logo.png": "/portfolio/static/media/k2gr8-logo.efa8d11cd1a8fbd8d497.png",
+    "static/media/torn-piece-of-paper.webp": "/portfolio/static/media/torn-piece-of-paper.30690ecf2632e9e47727.webp",
+    "static/media/linkedin-logo.png": "/portfolio/static/media/linkedin-logo.6a079f16af7cf55dc04e.png",
     "index.html": "/portfolio/index.html",
-    "main.99296814.css.map": "/portfolio/static/css/main.99296814.css.map",
-    "main.94ea36cd.js.map": "/portfolio/static/js/main.94ea36cd.js.map",
+    "main.230cba6f.css.map": "/portfolio/static/css/main.230cba6f.css.map",
+    "main.7860b76e.js.map": "/portfolio/static/js/main.7860b76e.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99296814.css",
-    "static/js/main.94ea36cd.js"
+    "static/css/main.230cba6f.css",
+    "static/js/main.7860b76e.js"
   ]
 }
