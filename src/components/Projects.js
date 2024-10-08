@@ -6,6 +6,8 @@ import './Title.css';
 import amaiLogo from '../images/amai-logo.png';
 import k2gr8Logo from '../images/k2gr8-logo.png';
 import discordBanner from '../images/discord-banner.png';
+import binItBitLogo from '../images/bin-it-bit-logo.png';
+
 
 function Projects() {
   return (
@@ -82,6 +84,25 @@ function Projects() {
             </Card.Body>
             <Card.Footer>
               <small className="text-muted">In Progress...</small>
+            </Card.Footer>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src={binItBitLogo} />
+            <Card.Body>
+              <a href='https://github.com/dluzong/Bin-It-Bit'>
+              <Card.Title>Bin-It-Bit</Card.Title>
+              </a>
+              <Card.Text>
+              Bin-It-Bit is a 2D mini-game created in hopes of spreading environmental awareness and tackling one of the causes of climate change. 
+              We believe the first step to tackling climate change is changing the way we live our daily lives. It starts with YOU, and we are here
+              to guide you to start a new habit: recycling. Users can learn what materials are recyclable in New York. Currently, New York's 
+              recycling system is underutilized and sometimes ignored. The game's goal is for users to be more conscious about the garbage they are 
+              throwing away and build sustainable recycling habits.
+              This game is intended to appeal to younger audiences.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+              <small className="text-muted">Last updated October 6, 2024</small>
             </Card.Footer>
           </Card>
         </CardGroup>
